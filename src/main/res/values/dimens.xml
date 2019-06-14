@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_margin">16dp</dimen>
+    
+	<!-- Font Sizes -->
+	<dimen name="more_app_font_size">12sp</dimen>
+	<dimen name="small_font_size">12sp</dimen>
+	<dimen name="normal_font_size">16sp</dimen>
+	<dimen name="medium_font_size">20sp</dimen>
+	<dimen name="large_font_size">24sp</dimen>
+	<dimen name="super_font_size">36sp</dimen>
+	
+	<!-- Margin -->
+	<dimen name="more_app_icon_margin">5dp</dimen>
+	<dimen name="touch_of_margin">2dp</dimen>
+	<dimen name="normal_margin">5dp</dimen>
+	<dimen name="large_margin">10dp</dimen>
+	<dimen name="super_margin">20dp</dimen>
+
+</resources>

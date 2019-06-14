@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.firecrackersw.galleryui">
+
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application>
+        <activity android:name=".GalleryActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+    </application>
+</manifest>

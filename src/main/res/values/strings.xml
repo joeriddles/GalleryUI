@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GalleryUI</string>
+
+    <!-- Gallery Width Select DialogFragment -->
+    <string name="select_gallery_width">Select Gallery Width</string>
+    <string name="width_two">Two</string>
+    <string name="width_three">Three</string>
+    <string name="width_four">Four</string>
+
+    <!-- Image Descriptions -->
+    <string name="image_description_back_arrow">white back arrow</string>
+    <string name="image_description_app_icon">app icon</string>
+    <string name="image_description_screenshot_preview">screenshot preview loaded from gallery</string>
+    <string name="image_description_close_button">close button</string>
+    <string name="permission_request_text">The read external storage permission is needed to display saved images in the gallery.</string>
+</resources>

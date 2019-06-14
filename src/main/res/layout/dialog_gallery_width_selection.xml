@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:padding="@dimen/super_margin"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/gallery_width_select_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_gallery_width"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/large_font_size" />
+
+    <Button
+        android:id="@+id/button_width_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gallery_width_select_title"
+        android:paddingTop="@dimen/normal_margin"
+        android:paddingBottom="@dimen/normal_margin"
+        android:drawableLeft="@drawable/circle_2_black"
+        android:drawableStart="@drawable/circle_2_black"
+        android:drawablePadding="@dimen/normal_margin"
+        android:gravity="start|center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/large_font_size"
+        android:text="@string/width_two"
+        android:background="@android:color/background_light"/>
+
+    <Button
+        android:id="@+id/button_width_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_width_two"
+        android:paddingTop="@dimen/normal_margin"
+        android:paddingBottom="@dimen/normal_margin"
+        android:drawableLeft="@drawable/circle_3_black"
+        android:drawableStart="@drawable/circle_3_black"
+        android:drawablePadding="@dimen/normal_margin"
+        android:gravity="start|center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/large_font_size"
+        android:text="@string/width_three"
+        android:background="@android:color/background_light"/>
+
+    <Button
+        android:id="@+id/button_width_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_width_three"
+        android:paddingTop="@dimen/normal_margin"
+        android:paddingBottom="@dimen/normal_margin"
+        android:drawableLeft="@drawable/circle_4_black"
+        android:drawableStart="@drawable/circle_4_black"
+        android:drawablePadding="@dimen/normal_margin"
+        android:gravity="start|center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/large_font_size"
+        android:text="@string/width_four"
+        android:background="@android:color/background_light" />
+
+</RelativeLayout>
